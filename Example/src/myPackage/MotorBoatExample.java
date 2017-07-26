@@ -13,6 +13,14 @@ public class MotorBoatExample {
 		motorBoat1.printFuelAmount(3);
 		motorBoat1.printTravelDistance(3);
 		motorBoat1.printTravelDistance();
+		
+		MotorBoat motorBoat2 = new MotorBoat();
+		motorBoat1.setFuelAmount(500);
+		motorBoat1.setCurrentSpeed(40);
+		motorBoat1.setEfficiency(3.0);
+		
+		boolean result = motorBoat1.equals(motorBoat2);
+		System.out.println(result);
 	}
 
 }

@@ -50,6 +50,13 @@ public class MotorBoat {
 	}
 	
 	
+	public boolean equals(MotorBoat m)
+	{
+		return(this.fuelAmount == m.fuelAmount 
+				&& this.currentSpeed == m.currentSpeed
+				&& this.efficiency == m.efficiency);
+	}
+	
 	//Given a parameter (time t), 
 	//print the amount of fuel used at the maximum and current speeds (e*s2*t)
 	//Given a time t, print the travel distance (s*t)

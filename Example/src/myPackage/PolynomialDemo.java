@@ -11,7 +11,9 @@ public class PolynomialDemo {
 		p.setConstant(1,5);
 		p.setConstant(2,0);
 		p.setConstant(3,2);
+		
 		System.out.println(p.evaluate(2));
+		
 		
 	}
 
